@@ -4,7 +4,7 @@ var wrapLog = function (callback, name) {
     var a = arguments[0];
     var b = arguments[1];
     var sum = callback(a, b);
-    console.log("sum(" + a + "," + b + ") => " + sum);
+    console.log(name + "(" + a + "," + b + ") => " + sum);
   }
 };
 
